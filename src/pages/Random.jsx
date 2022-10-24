@@ -2,9 +2,7 @@ import React from 'react'
 
 const Random = () => {
   return (
-    <div>
-      
-    </div>
+    <div><h1 style={{textAlign:"center"}}>Me Code Anka 🤟</h1></div>
   )
 }
 

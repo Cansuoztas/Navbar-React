@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Random = () => {
+const Home = () => {
   return (
     <div className='div' >
    <h2> WELCOM TO MY PAGE 🌎</h2>
@@ -8,4 +8,4 @@ const Random = () => {
   )
 }
 
-export default Random
+export default Home

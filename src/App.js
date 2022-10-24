@@ -5,7 +5,7 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import Profile from './pages/Profile'
 import Projects from './pages/Projects'
-import Random from './pages/Random'
+import Home from './pages/Home'
 import Error from './pages/Error'
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
     <BrowserRouter>
     <Navbar/>
     <Routes>
-      <Route element={<Random/>} path='/'/>
+      <Route element={<Home/>} path='/'/>
       <Route element={<About/>} path='/about'/>
       <Route element={<Projects/>} path='/projects'/>
       <Route element={<Contact/>} path='/contact'/>
